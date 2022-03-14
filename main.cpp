@@ -1,6 +1,5 @@
 #include "ShuntingYardParser.h"
 #include "AST.h"
-#include <vector>
 #include <string>
 #include <iostream>
 

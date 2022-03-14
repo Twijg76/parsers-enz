@@ -12,7 +12,6 @@
 #include <vector>
 #include <memory>
 #include <algorithm>
-#include "Utilities.h"
 
 /** Een klasse die een shunting yard  parser van infix naar AST implementeert.
  *  Hoe werk ik met deze parser?

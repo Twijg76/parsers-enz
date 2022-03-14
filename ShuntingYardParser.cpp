@@ -93,8 +93,8 @@ bool shuntingYardParser::isNumber(const std::string& line) {
 */
 
 shuntingYardParser::comp shuntingYardParser::comparePrecedence(const std::string& a, const std::string& b) {
-    bool founda = false;
-    bool foundb = false;
+    bool founda;
+    bool foundb;
     for (auto v : precedence) {
         founda = (std::find(v.begin(), v.end(), a) != v.end());
         foundb = (std::find(v.begin(), v.end(), b) != v.end());

@@ -11,5 +11,4 @@ add_executable(parsers_enz
         AST.h
         ShuntingYardParser.cpp
         ShuntingYardParser.h
-        Utilities.cpp
-        Utilities.h)
+        )
