@@ -2,13 +2,17 @@
 // Created by twijg on 1/2/22.
 //
 
+#ifndef SHUNTINGYARDPARSER_H
+#define SHUNTINGYARDPARSER_H
+
+
 #include "AST.h"
-#include "Utilities.h"
 #include <string>
 #include <stack>
 #include <vector>
 #include <memory>
 #include <algorithm>
+#include "Utilities.h"
 
 /** Een klasse die een shunting yard  parser van infix naar AST implementeert.
  *  Hoe werk ik met deze parser?
@@ -68,3 +72,5 @@ private:
     std::vector<std::string> operators;
     std::vector<std::vector<std::string>> precedence; // Van hoog naar laag, hetzelfde is in hetzelfde element.
 };
+
+#endif

@@ -1,5 +1,10 @@
 
+#ifndef UTIL_H
+#define UTIL_H
+
+
 #include <cmath>
+#include <string>
 
 /**
  * @namespace Util
@@ -22,4 +27,6 @@ namespace Util {
     * alle andere code
     * @return
     */
-    static bool isNumber(const std::string&);
+    static bool isNumber(const std::string &);
+}
+#endif

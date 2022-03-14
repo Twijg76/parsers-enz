@@ -1,4 +1,8 @@
 
+#ifndef AST_H
+#define AST_H
+
+
 #include <string>
 #include <vector>
 #include <map>
@@ -62,3 +66,5 @@ public:
 private:
     Node* root;
 };
+
+#endif
