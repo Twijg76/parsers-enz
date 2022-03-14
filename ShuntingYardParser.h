@@ -2,9 +2,6 @@
 // Created by twijg on 1/2/22.
 //
 
-#ifndef MB_TO_GROEP_SHUNTINGYARDPARSER_H
-#define MB_TO_GROEP_SHUNTINGYARDPARSER_H
-
 #include "AST.h"
 #include "Utilities.h"
 #include <string>
@@ -71,6 +68,3 @@ private:
     std::vector<std::string> operators;
     std::vector<std::vector<std::string>> precedence; // Van hoog naar laag, hetzelfde is in hetzelfde element.
 };
-
-
-#endif //MB_TO_GROEP_SHUNTINGYARDPARSER_H
