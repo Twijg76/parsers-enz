@@ -16,4 +16,11 @@ tekst telt natuurlijk.
 3. Wanneer ge de code aanpast zijt ge verplicht die wijzigingen openbaar te
    maken onder een compatible licentie. (verbeteringen liefst ook aan deze
    repository toevoegen)
+   
+   
+# ENG: A SHunting Yard Parser
+This repository contains a simple Shunting Yard Parser from infix notation to an
+AST or Abstract Syntax Tree. This code is under the LGPL so it's easy to use in
+your project as long as you share your improvements to this code. The parser
+supports the operators \*+-/^ and () but not unuary operators (yet).
 
