@@ -1,4 +1,4 @@
-# parsers-enz
+# parsers-enz: Een Shunting Yard Parser
 Een Shunting Yard parser in C++ die een AST maakt. Ik had dit nodig voor
 een project en kon geen voorbeeld of zelfs maar duidelijke omschrijving vond
 van hoe dat precies werkt. Nu is er dus één, dit toont hoe ge van een string
